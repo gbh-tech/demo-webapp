@@ -273,5 +273,5 @@ def cloneProject(String path, String repo, String branch) {
  * Get the ticket ID using the branch name.
  */
 def getTicketIdFromBranchName(String branchName) {
-  return branchName.findAll(/(DO-[0-9]+)/)[0];
+  return branchName.findAll(/(DP-[0-9]+)/)[0];
 }
